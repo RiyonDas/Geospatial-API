@@ -23,3 +23,7 @@ PostgreSQL Database is connected with the API -> Datasets are uploaded to the da
 |__ templates
 
      |__ index.html 
+
+## UI Image -
+<img width="1919" height="829" alt="Screenshot 2025-11-13 001808" src="https://github.com/user-attachments/assets/44fcf232-f131-4c29-a146-5f1fca0dd80b" />
+
