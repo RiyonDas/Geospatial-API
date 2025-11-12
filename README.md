@@ -8,13 +8,18 @@ Click a ward polygon/Search a location -> Zooms into the selected location -> Sh
 PostgreSQL Database is connected with the API -> Datasets are uploaded to the database -> Data request is sent from the UI -> Request enters the API and runs based on the code logic -> Desired data is fetched from the entire database -> Response is sent from the database to the API -> API runs the frontend code logic -> Data gets visualised in the web application.
 
 ## File skeleton used in the project
-|__ data \n
-|__ app.py \n
-|__ upload_to_PostgreSQL \n
-|__ static \n
-     |__ css \n
-          |__ style.css \n
-     |__ js \n
-          |__ map.js \n
-|__ templates \n
-     |__ index.html \n
+|__ data
+
+|__ app.py
+
+|__ upload_to_PostgreSQL
+
+|__ static
+
+     |__ css 
+          |__ style.css 
+     |__ js 
+          |__ map.js 
+|__ templates
+
+     |__ index.html 
