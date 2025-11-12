@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewpoint" content = "width=device-width, initial-scale=1.0">
+    <title>Bangalore Spatial Dashboard</title>
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'css/style.css')}}">
+    <link rel = "stylesheet" href = "https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src = "https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+  <body>
+    <header>
+      <h2>Bengaluru Geospatial Application</h2>
+    </header>
+    <div id="controls">
+     <input type="text" id="search" placeholder="Search Ward Name..." />
+    </div>
+    <div id="map"></div>
+    <div id="stats-box">
+      <h3>Ward Statistics</h3>
+      <div id="stats-output">Click a ward to view its Statistics</div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+  </body>
